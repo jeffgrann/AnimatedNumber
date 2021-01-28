@@ -4,6 +4,7 @@ A SwiftUI view that animates changes to a number by quickly counting up or down 
 ![Output sample](https://successware.net/gifs/AnimatedNumber.gif)
 
 **Simple Example**
+
 ```swift
 import AnimatedNumber
 import SwiftUI
@@ -20,7 +21,14 @@ struct ContentView: View {
 }
 ```
 
+**Installation**
+
+Requires iOS 14/MacOS 15 and Xcode 12.
+
+In Xcode go to File -> Swift Packages -> Add Package Dependency and paste in the repo's url: https://github.com/jeffgrann/AnimatedNumber
+
 **Full Example**
+
 ```swift
 import AnimatedNumber
 import SwiftUI
