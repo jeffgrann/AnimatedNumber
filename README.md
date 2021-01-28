@@ -13,10 +13,8 @@ struct ContentView: View {
     @State var value: Double = 0
     
     var body: some View {
-        VStack {
-            AnimatedNumber($value)
-                .font(.largeTitle)
-        }
+        AnimatedNumber($value)
+            .font(.largeTitle)
     }
 }
 ```
@@ -25,7 +23,7 @@ struct ContentView: View {
 
 Requires iOS 14/MacOS 15 and Xcode 12.
 
-In Xcode go to File -> Swift Packages -> Add Package Dependency and paste in the repo's url: https://github.com/jeffgrann/AnimatedNumber
+In Xcode go to `File -> Swift Packages -> Add Package Dependency` and paste in the repo's url: `https://github.com/jeffgrann/AnimatedNumber`
 
 **Full Example**
 
